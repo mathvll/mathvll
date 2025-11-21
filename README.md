@@ -83,11 +83,13 @@ me.say_hi()
 
 <div align="center">
 
-### 🔥 Atividade & Contribuições
+### 🔥 Atividade & Contribuições (Dados Reais)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mathvll&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=Estatísticas%20do%20GitHub)
+![GitHub Stats Real](./github_stats_real.svg)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mathvll&theme=tokyonight&hide_border=true)
+
+> 💡 **Nota:** O card acima mostra dados reais de todos os 23 repositórios (incluindo privados). O streak abaixo mostra apenas atividade pública.
 
 </div>
 
