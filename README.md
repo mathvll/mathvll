@@ -83,11 +83,13 @@ me.say_hi()
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mathvll&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mathvll&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=Estatísticas%20do%20GitHub)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mathvll&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mathvll&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&exclude_repo=&hide=)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mathvll&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=mathvll&theme=tokyonight&hide_border=true)
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mathvll&theme=tokyo-night&hide_border=true&custom_title=Gráfico%20de%20Contribuições)
 
 </div>
 
