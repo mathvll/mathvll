@@ -82,16 +82,52 @@ me.say_hi()
 ## 📊 Estatísticas GitHub
 
 <div align="center">
-  
+
+### 🔥 Atividade & Contribuições
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mathvll&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=Estatísticas%20do%20GitHub)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mathvll&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&exclude_repo=&hide=)
-
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mathvll&theme=tokyonight&hide_border=true)
+
+### 💻 Linguagens & Tecnologias
+
+<table>
+<tr>
+<td width="50%">
+
+**Linguagens Mais Usadas:**
+
+- **HTML**: 44.1% ████████░░░░░░░░░░░░
+- **TypeScript**: 25.4% █████░░░░░░░░░░░░░░░
+- **Python**: 23.0% ████░░░░░░░░░░░░░░░░
+- **JavaScript**: 3.4% ░░░░░░░░░░░░░░░░░░░░
+- **CSS**: 3.1% ░░░░░░░░░░░░░░░░░░░░
+- **TeX**: 0.8% ░░░░░░░░░░░░░░░░░░░░
+- **PowerShell**: 0.1% ░░░░░░░░░░░░░░░░░░░░
+- **Shell**: 0.0% ░░░░░░░░░░░░░░░░░░░░
+
+</td>
+<td width="50%">
+
+**Estatísticas Gerais:**
+
+- 📦 **Repositórios**: 23
+- ⭐ **Stars**: 0
+- 🔱 **Forks**: 0
+- 👥 **Seguidores**: 1
+- 📅 **Desde**: 2021
+
+</td>
+</tr>
+</table>
+
+### 📈 Gráfico de Contribuições
 
 ![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mathvll&theme=tokyo-night&hide_border=true&custom_title=Gráfico%20de%20Contribuições)
 
 </div>
+
+> **✨ Estatísticas atualizadas em:** 21/11/2025 às 11:58 | Incluindo repositórios privados
 
 ---
 
