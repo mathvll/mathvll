@@ -89,7 +89,7 @@ me.say_hi()
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mathvll&theme=tokyonight&hide_border=true)
 
-> 💡 **Nota:** O card acima mostra dados reais de todos os 23 repositórios (incluindo privados). O streak abaixo mostra apenas atividade pública.
+> 💡 **Nota:** O card acima mostra dados reais: 6 commits, 0 PRs, 0 issues em 23 repositórios (incluindo privados). O streak abaixo mostra apenas atividade pública.
 
 </div>
 
