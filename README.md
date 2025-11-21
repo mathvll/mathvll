@@ -89,45 +89,34 @@ me.say_hi()
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mathvll&theme=tokyonight&hide_border=true)
 
+</div>
+
 ### 💻 Linguagens & Tecnologias
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-**Linguagens Mais Usadas:**
+| **Linguagens Mais Usadas** | **Estatísticas Gerais** |
+|:---------------------------:|:-----------------------:|
+| ![HTML](https://img.shields.io/badge/HTML-44.1%25-E34F26?style=flat-square&logo=html5&logoColor=white) | 📦 **Repositórios:** 23 |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-25.4%25-3178C6?style=flat-square&logo=typescript&logoColor=white) | ⭐ **Stars:** 0 |
+| ![Python](https://img.shields.io/badge/Python-23.0%25-3776AB?style=flat-square&logo=python&logoColor=white) | 🔱 **Forks:** 0 |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-3.4%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | 👥 **Seguidores:** 1 |
+| ![CSS](https://img.shields.io/badge/CSS-3.1%25-1572B6?style=flat-square&logo=css3&logoColor=white) | 📅 **Desde:** 2021 |
+| ![Others](https://img.shields.io/badge/Outras-0.9%25-gray?style=flat-square) | 💻 **Commits:** 634+ |
 
-- **HTML**: 44.1% ████████░░░░░░░░░░░░
-- **TypeScript**: 25.4% █████░░░░░░░░░░░░░░░
-- **Python**: 23.0% ████░░░░░░░░░░░░░░░░
-- **JavaScript**: 3.4% ░░░░░░░░░░░░░░░░░░░░
-- **CSS**: 3.1% ░░░░░░░░░░░░░░░░░░░░
-- **TeX**: 0.8% ░░░░░░░░░░░░░░░░░░░░
-- **PowerShell**: 0.1% ░░░░░░░░░░░░░░░░░░░░
-- **Shell**: 0.0% ░░░░░░░░░░░░░░░░░░░░
-
-</td>
-<td width="50%">
-
-**Estatísticas Gerais:**
-
-- 📦 **Repositórios**: 23
-- ⭐ **Stars**: 0
-- 🔱 **Forks**: 0
-- 👥 **Seguidores**: 1
-- 📅 **Desde**: 2021
-
-</td>
-</tr>
-</table>
+</div>
 
 ### 📈 Gráfico de Contribuições
+
+<div align="center">
 
 ![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mathvll&theme=tokyo-night&hide_border=true&custom_title=Gráfico%20de%20Contribuições)
 
 </div>
 
-> **✨ Estatísticas atualizadas em:** 21/11/2025 às 11:58 | Incluindo repositórios privados
+> **📝 Nota Importante:** Os widgets acima (GitHub Stats, Streak) mostram apenas dados de repositórios **públicos** devido a limitações da API pública do GitHub. As estatísticas reais incluem **23 repositórios** (22 privados) com **634+ contribuições** no último ano.
+> 
+> **✨ Dados completos atualizados em:** 21/11/2025 às 11:58
 
 ---
 
