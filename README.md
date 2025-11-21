@@ -91,18 +91,18 @@ me.say_hi()
 
 </div>
 
-### 💻 Linguagens & Tecnologias
+### 💻 Linguagens & Tecnologias (Dados Reais)
 
 <div align="center">
 
 | **Linguagens Mais Usadas** | **Estatísticas Gerais** |
 |:---------------------------:|:-----------------------:|
-| ![HTML](https://img.shields.io/badge/HTML-44.1%25-E34F26?style=flat-square&logo=html5&logoColor=white) | 📦 **Repositórios:** 23 |
+| ![HTML](https://img.shields.io/badge/HTML-44.1%25-E34F26?style=flat-square&logo=html&logoColor=white) | 📦 **Repositórios:** 23 |
 | ![TypeScript](https://img.shields.io/badge/TypeScript-25.4%25-3178C6?style=flat-square&logo=typescript&logoColor=white) | ⭐ **Stars:** 0 |
 | ![Python](https://img.shields.io/badge/Python-23.0%25-3776AB?style=flat-square&logo=python&logoColor=white) | 🔱 **Forks:** 0 |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-3.4%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | 👥 **Seguidores:** 1 |
-| ![CSS](https://img.shields.io/badge/CSS-3.1%25-1572B6?style=flat-square&logo=css3&logoColor=white) | 📅 **Desde:** 2021 |
-| ![Others](https://img.shields.io/badge/Outras-0.9%25-gray?style=flat-square) | 💻 **Commits:** 634+ |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-3.4%25-F7DF1E?style=flat-square&logo=javascript&logoColor=white) | 👥 **Seguidores:** 1 |
+| ![CSS](https://img.shields.io/badge/CSS-3.1%25-1572B6?style=flat-square&logo=css&logoColor=white) | 📅 **Desde:** 2021 |
+| ![Others](https://img.shields.io/badge/Outras-1.0%25-gray?style=flat-square) | 💻 **Commits Recentes:** 634+  |
 
 </div>
 
@@ -114,9 +114,9 @@ me.say_hi()
 
 </div>
 
-> **📝 Nota Importante:** Os widgets acima (GitHub Stats, Streak) mostram apenas dados de repositórios **públicos** devido a limitações da API pública do GitHub. As estatísticas reais incluem **23 repositórios** (22 privados) com **634+ contribuições** no último ano.
+> **📝 Nota Importante:** Os widgets acima (GitHub Stats, Streak) mostram apenas dados de repositórios **públicos** devido a limitações da API pública do GitHub. As estatísticas da tabela incluem **todos os 23 repositórios** com dados reais.
 > 
-> **✨ Dados completos atualizados em:** 21/11/2025 às 11:58
+> **✨ Dados atualizados em:** 21/11/2025 às 12:13
 
 ---
 
