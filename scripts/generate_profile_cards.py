@@ -28,13 +28,6 @@ query ProfileData($login: String!) {
     following {
       totalCount
     }
-    organizations(first: 20) {
-      totalCount
-      nodes {
-        login
-        name
-      }
-    }
     contributionsCollection {
       contributionCalendar {
         totalContributions
@@ -69,6 +62,21 @@ query ProfileData($login: String!) {
 """.strip()
 
 
+ORGANIZATIONS_QUERY = """
+query ProfileOrganizations($login: String!) {
+  user(login: $login) {
+    organizations(first: 20) {
+      totalCount
+      nodes {
+        login
+        name
+      }
+    }
+  }
+}
+""".strip()
+
+
 def post_graphql(query: str, variables: dict) -> dict:
     if not TOKEN:
         raise RuntimeError("METRICS_TOKEN nao configurado.")
@@ -96,6 +104,15 @@ def post_graphql(query: str, variables: dict) -> dict:
         raise RuntimeError(f"GraphQL retornou erro: {data['errors']}")
 
     return data["data"]["user"]
+
+
+def fetch_organizations(login: str) -> dict:
+    try:
+        return post_graphql(ORGANIZATIONS_QUERY, {"login": login})["organizations"]
+    except RuntimeError as exc:
+        if "INSUFFICIENT_SCOPES" in str(exc) or "read:org" in str(exc):
+            return {"totalCount": None, "nodes": [], "available": False}
+        raise
 
 
 def format_number(value: int) -> str:
@@ -243,13 +260,15 @@ def build_metrics_svg(profile: dict) -> str:
         for org in organizations["nodes"][:4]
         if org.get("name") or org.get("login")
     ]
-    org_text = ", ".join(org_names) if org_names else "Sem organizacoes visiveis pela API"
+    org_text = ", ".join(org_names) if org_names else "Organizacoes nao disponiveis"
     latest_repo = max(repository_nodes(profile), key=lambda repo: repo.get("updatedAt") or "", default={})
+    org_count = organizations["totalCount"]
+    org_value = format_number(org_count) if isinstance(org_count, int) else "Nao disponivel"
 
     stat_items = [
         ("Conta criada em", format_date(profile.get("createdAt"))),
         ("Repositorios", format_number(profile["repositories"]["totalCount"])),
-        ("Organizacoes visiveis", format_number(organizations["totalCount"])),
+        ("Organizacoes visiveis", org_value),
         ("Contribuicoes no ano", format_number(profile["contributionsCollection"]["contributionCalendar"]["totalContributions"])),
         ("Stars recebidas", format_number(stars)),
         ("Forks recebidos", format_number(forks)),
@@ -302,6 +321,7 @@ def build_metrics_svg(profile: dict) -> str:
 
 def main() -> None:
     profile = post_graphql(GRAPHQL_QUERY, {"login": USERNAME})
+    profile["organizations"] = fetch_organizations(USERNAME)
     OUTPUT_STATS.write_text(build_stats_svg(profile), encoding="utf-8")
     OUTPUT_LANGS.write_text(build_langs_svg(profile), encoding="utf-8")
     OUTPUT_METRICS.write_text(build_metrics_svg(profile), encoding="utf-8")
