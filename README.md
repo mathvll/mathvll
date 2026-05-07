@@ -60,18 +60,14 @@ Scripts e integracoes para eliminar tarefas repetitivas, diminuir tempo de execu
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mathvll&show_icons=true&include_all_commits=true&rank_icon=github&locale=pt-br&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mathvll&layout=compact&langs_count=8&locale=pt-br&theme=tokyonight&hide_border=true)
+![GitHub Stats](./github-stats.svg)
+![Top Langs](./top-langs.svg)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=mathvll&locale=pt_BR&theme=tokyonight&hide_border=true)
 
 ![Metricas avancadas](./github-metrics.svg)
 
 </div>
-
-Os tres cards acima sao dinamicos e atualizam automaticamente a partir de servicos externos. O painel `github-metrics.svg` fica versionado no repositorio e passa a ser gerado por GitHub Actions, o que ajuda quando voce quiser uma visao mais controlada e menos dependente de texto escrito na mao.
-
-> Observacao: cards externos como `github-readme-stats` e `streak-stats` normalmente refletem melhor dados publicos. Para aprofundar metricas e tentar incluir contexto de repositorios privados, o workflow deste repositorio usa um token proprio via secret.
 
 ### Atividade recente
 
@@ -94,4 +90,4 @@ Os tres cards acima sao dinamicos e atualizam automaticamente a partir de servic
 
 ## Contato
 
-O perfil esta preparado para destacar trabalho, processo e consistencia tecnica. Se voce quiser, o proximo passo natural e plugar aqui seus links reais de `LinkedIn`, portfolio e email para fechar a apresentacao publica.
+Aberto a conexoes, colaboracoes e conversas sobre automacao, scraping, backend e solucao de problemas com Python.

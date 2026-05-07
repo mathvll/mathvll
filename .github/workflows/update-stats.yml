@@ -12,6 +12,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Validar token
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
@@ -20,6 +23,17 @@ jobs:
             echo "METRICS_TOKEN nao configurado"
             exit 1
           fi
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Gerar cards locais
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_USERNAME: mathvll
+        run: python scripts/generate_profile_cards.py
 
       - name: Gerar painel de metricas
         uses: lowlighter/metrics@latest
@@ -37,3 +51,10 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          output_action: none
+
+      - name: Commitar SVGs atualizados
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: atualiza cards de metricas do perfil"
+          file_pattern: "github-stats.svg top-langs.svg github-metrics.svg"
