@@ -29,29 +29,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Gerar cards locais
+      - name: Gerar SVGs locais
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GITHUB_USERNAME: mathvll
         run: python scripts/generate_profile_cards.py
-
-      - name: Gerar painel de metricas
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: mathvll
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: America/Sao_Paulo
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          output_action: none
 
       - name: Commitar SVGs atualizados
         uses: stefanzweifel/git-auto-commit-action@v5

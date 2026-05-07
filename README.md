@@ -11,11 +11,11 @@ Python developer focado em automacao, web scraping e backend para transformar ta
 
 ---
 
-## Sobre
+## Perfil
 
-Atuo com Python desde 2020 criando solucoes que reduzem trabalho operacional, organizam coleta de dados e colocam processos repetitivos em uma esteira mais confiavel.
+Desenvolvo solucoes em Python para reduzir trabalho operacional, organizar coleta de dados e transformar rotinas repetitivas em processos mais consistentes.
 
-Meu foco hoje esta em tres frentes:
+Quem chega por aqui vai encontrar um perfil voltado a:
 
 - automacao de processos e tarefas internas
 - web scraping com coleta estruturada e persistencia de dados
@@ -23,27 +23,27 @@ Meu foco hoje esta em tres frentes:
 
 ---
 
-## O que eu construo
+## Como contribuo
 
 ### Captacao e enriquecimento de dados
 
-Projetos de scraping voltados para prospeccao, monitoramento e estruturacao de informacoes, usando Python para transformar navegacao manual em pipeline repetivel.
+Construo rotinas de scraping para prospeccao, monitoramento e estruturacao de informacoes, com foco em transformar navegacao manual em pipeline repetivel.
 
 Stack recorrente: `Python`, `Selenium`, `BeautifulSoup`, `MongoDB`
 
 ### Backends para operacao
 
-Ferramentas internas e CRMs sob medida para centralizar dados, reduzir atrito operacional e simplificar processos que normalmente ficam espalhados em planilhas e rotinas manuais.
+Desenvolvo ferramentas internas e CRMs sob medida para centralizar dados, reduzir atrito operacional e simplificar fluxos que normalmente ficam espalhados em planilhas e tarefas manuais.
 
 Stack recorrente: `Python`, `Flask`, `SQLite`, `PostgreSQL`
 
 ### Automacoes orientadas a produtividade
 
-Scripts e integracoes para eliminar tarefas repetitivas, diminuir tempo de execucao e aumentar previsibilidade no dia a dia tecnico e operacional.
+Crio scripts e integracoes para eliminar tarefas repetitivas, diminuir tempo de execucao e aumentar previsibilidade em processos tecnicos e operacionais.
 
 ---
 
-## Stack principal
+## Tecnologias
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -56,7 +56,7 @@ Scripts e integracoes para eliminar tarefas repetitivas, diminuir tempo de execu
 
 ---
 
-## Metricas dinamicas
+## Contribuicoes
 
 <div align="center">
 
@@ -65,21 +65,27 @@ Scripts e integracoes para eliminar tarefas repetitivas, diminuir tempo de execu
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=mathvll&locale=pt_BR&theme=tokyonight&hide_border=true)
 
-![Metricas avancadas](./github-metrics.svg)
-
 </div>
 
-### Atividade recente
+## Detalhamento tecnico
 
 <div align="center">
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mathvll&theme=tokyo-night&hide_border=true&custom_title=Atividade%20recente)
+![Detalhamento tecnico](./github-metrics.svg)
+
+</div>
+
+## Historico de atividade
+
+<div align="center">
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mathvll&theme=tokyo-night&hide_border=true&custom_title=Historico%20de%20atividade)
 
 </div>
 
 ---
 
-## Direcao tecnica
+## Interesses tecnicos
 
 - automacao de operacoes e rotinas internas
 - scraping e monitoramento de fontes web
