@@ -1,179 +1,97 @@
 <div align="center">
-  
-# 👋 Olá, eu sou Matheus Villar!
 
-### 🐍 Python Developer | Automation & Web Scraping Specialist
+# Matheus Villar
+
+Python developer focado em automacao, web scraping e backend para transformar tarefas manuais em fluxos previsiveis.
 
 [![GitHub followers](https://img.shields.io/github/followers/mathvll?style=social)](https://github.com/mathvll)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+![Profile Views](https://komarev.com/ghpvc/?username=mathvll&color=2f81f7&style=flat-square)
 
 </div>
 
 ---
 
-## 🚀 Sobre Mim
+## Sobre
 
-Desenvolvedor focado em **Python** com experiência desde **2020**, especializado em automação de processos e extração de dados. Apaixonado por criar soluções eficientes que resolvem problemas reais.
+Atuo com Python desde 2020 criando solucoes que reduzem trabalho operacional, organizam coleta de dados e colocam processos repetitivos em uma esteira mais confiavel.
 
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Matheus Villar"
-        self.role = "Python Developer"
-        self.language_spoken = ["pt-BR", "en-US"]
-        self.focus = ["Web Scraping", "Automation", "Backend Development"]
-        
-    def say_hi(self):
-        print("Obrigado por visitar meu perfil! Vamos construir algo incrível juntos!")
+Meu foco hoje esta em tres frentes:
 
-me = Developer()
-me.say_hi()
-```
+- automacao de processos e tarefas internas
+- web scraping com coleta estruturada e persistencia de dados
+- backend leve para ferramentas internas, APIs e CRMs customizados
 
 ---
 
-## 💼 Experiência & Projetos
+## O que eu construo
 
-### 🔍 Web Scraping & Automação
-- **Sistema de Captação de Leads**: Desenvolvido um scraper automatizado para coletar clientes potenciais para website SMM
-  - Stack: Python + Selenium + MongoDB
-  - Automatização completa do processo de prospecção
-  - Armazenamento estruturado de dados em MongoDB
+### Captacao e enriquecimento de dados
 
-### 🏢 Desenvolvimento Backend
-- **CRM Personalizado**: Sistema de gestão de relacionamento com clientes
-  - Framework: Flask
-  - Projeto privado com funcionalidades customizadas
-  - Gerenciamento completo de dados e interações
+Projetos de scraping voltados para prospeccao, monitoramento e estruturacao de informacoes, usando Python para transformar navegacao manual em pipeline repetivel.
 
-### ⚙️ Automação de Tarefas
-- Experiência em criar scripts para automatizar tarefas repetitivas
-- Otimização de processos e aumento de produtividade
-- Soluções personalizadas para necessidades específicas
+Stack recorrente: `Python`, `Selenium`, `BeautifulSoup`, `MongoDB`
+
+### Backends para operacao
+
+Ferramentas internas e CRMs sob medida para centralizar dados, reduzir atrito operacional e simplificar processos que normalmente ficam espalhados em planilhas e rotinas manuais.
+
+Stack recorrente: `Python`, `Flask`, `SQLite`, `PostgreSQL`
+
+### Automacoes orientadas a produtividade
+
+Scripts e integracoes para eliminar tarefas repetitivas, diminuir tempo de execucao e aumentar previsibilidade no dia a dia tecnico e operacional.
 
 ---
 
-## 🛠️ Tecnologias & Ferramentas
+## Stack principal
 
-### Linguagens
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Frameworks & Libraries
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Databases
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### Ferramentas
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
-## 📊 Estatísticas GitHub
+## Metricas dinamicas
 
 <div align="center">
 
-### 🔥 Atividade & Contribuições (Dados Reais)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mathvll&show_icons=true&include_all_commits=true&rank_icon=github&locale=pt-br&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mathvll&layout=compact&langs_count=8&locale=pt-br&theme=tokyonight&hide_border=true)
 
-![GitHub Stats Real](./github_stats_real.svg)
+![GitHub Streak](https://streak-stats.demolab.com?user=mathvll&locale=pt_BR&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=mathvll&theme=tokyonight&hide_border=true)
-
-> 💡 **Nota:** O card acima mostra dados reais: 6 commits, 0 PRs, 0 issues em 23 repositórios (incluindo privados). O streak abaixo mostra apenas atividade pública.
+![Metricas avancadas](./github-metrics.svg)
 
 </div>
 
-### 💻 Linguagens & Tecnologias (Dados Reais)
+Os tres cards acima sao dinamicos e atualizam automaticamente a partir de servicos externos. O painel `github-metrics.svg` fica versionado no repositorio e passa a ser gerado por GitHub Actions, o que ajuda quando voce quiser uma visao mais controlada e menos dependente de texto escrito na mao.
+
+> Observacao: cards externos como `github-readme-stats` e `streak-stats` normalmente refletem melhor dados publicos. Para aprofundar metricas e tentar incluir contexto de repositorios privados, o workflow deste repositorio usa um token proprio via secret.
+
+### Atividade recente
 
 <div align="center">
 
-| **Linguagens Mais Usadas** | **Estatísticas Gerais** |
-|:---------------------------:|:-----------------------:|
-| ![HTML](https://img.shields.io/badge/HTML-44.1%25-E34F26?style=flat-square&logo=html&logoColor=white) | 📦 **Repositórios:** 23 |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-25.4%25-3178C6?style=flat-square&logo=typescript&logoColor=white) | ⭐ **Stars:** 0 |
-| ![Python](https://img.shields.io/badge/Python-23.0%25-3776AB?style=flat-square&logo=python&logoColor=white) | 🔱 **Forks:** 0 |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-3.4%25-F7DF1E?style=flat-square&logo=javascript&logoColor=white) | 👥 **Seguidores:** 1 |
-| ![CSS](https://img.shields.io/badge/CSS-3.1%25-1572B6?style=flat-square&logo=css&logoColor=white) | 📅 **Desde:** 2021 |
-| ![Others](https://img.shields.io/badge/Outras-1.0%25-gray?style=flat-square) | 💻 **Commits Recentes:** 634+  |
-
-</div>
-
-### 📈 Gráfico de Contribuições
-
-<div align="center">
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mathvll&theme=tokyo-night&hide_border=true&custom_title=Gráfico%20de%20Contribuições)
-
-</div>
-
-> **📝 Nota Importante:** Os widgets acima (GitHub Stats, Streak) mostram apenas dados de repositórios **públicos** devido a limitações da API pública do GitHub. As estatísticas da tabela incluem **todos os 23 repositórios** com dados reais.
-> 
-> **✨ Dados atualizados em:** 21/11/2025 às 12:13
-
----
-
-## 🎯 Áreas de Interesse
-
-- 🕷️ **Web Scraping**: Extração e processamento de dados da web
-- 🤖 **Automação**: Scripts e bots para otimização de processos
-- 🌐 **Desenvolvimento Web**: Backend com Flask e APIs RESTful
-- 📊 **Análise de Dados**: Processamento e visualização de dados
-- 🔧 **DevOps**: Automação de deploy e infraestrutura
-
----
-
-## 📈 Jornada de Aprendizado
-
-```mermaid
-graph LR
-    A[2020: Início] --> B[Python Basics]
-    B --> C[Web Scraping]
-    C --> D[Selenium & Automation]
-    D --> E[Flask & Backend]
-    E --> F[Databases]
-    F --> G[2024: Projetos Avançados]
-```
-
-**2020 - Presente**: Evolução contínua em Python e tecnologias relacionadas
-- Fundamentos de programação e lógica
-- Web scraping e automação
-- Desenvolvimento backend com Flask
-- Integração com bancos de dados
-- Projetos reais e aplicações práticas
-
----
-
-## 🤝 Vamos Conectar?
-
-Estou sempre aberto a novos projetos, colaborações e oportunidades de aprendizado!
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://seu-portfolio.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/seu-usuario)
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mathvll&theme=tokyo-night&hide_border=true&custom_title=Atividade%20recente)
 
 </div>
 
 ---
 
-<div align="center">
-  
-### 💡 "Code is like humor. When you have to explain it, it's bad." – Cory House
+## Direcao tecnica
 
-![Profile Views](https://komarev.com/ghpvc/?username=mathvll&color=blueviolet&style=flat-square)
+- automacao de operacoes e rotinas internas
+- scraping e monitoramento de fontes web
+- modelagem simples de dados para ferramentas sob medida
+- backends enxutos com foco em manutencao
 
-⭐️ From [mathvll](https://github.com/mathvll)
+---
 
-</div>
+## Contato
+
+O perfil esta preparado para destacar trabalho, processo e consistencia tecnica. Se voce quiser, o proximo passo natural e plugar aqui seus links reais de `LinkedIn`, portfolio e email para fechar a apresentacao publica.

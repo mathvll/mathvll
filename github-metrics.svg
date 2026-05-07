@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">Metricas avancadas do perfil</title>
+  <desc id="desc">Painel temporario enquanto o workflow de metricas nao gera a versao automatica.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="320" rx="24" fill="url(#bg)"/>
+  <rect x="28" y="28" width="844" height="264" rx="18" fill="#111827" stroke="#334155"/>
+  <text x="56" y="92" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">
+    Metricas avancadas em preparacao
+  </text>
+  <text x="56" y="138" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="18">
+    Este arquivo sera atualizado automaticamente pelo GitHub Actions.
+  </text>
+  <text x="56" y="172" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="18">
+    Para ativar, crie o secret METRICS_TOKEN no repositorio.
+  </text>
+  <text x="56" y="206" fill="#93c5fd" font-family="Consolas, monospace" font-size="18">
+    Settings &gt; Secrets and variables &gt; Actions
+  </text>
+  <text x="56" y="248" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+    Depois disso, execute o workflow "Gerar metricas do perfil" manualmente uma vez.
+  </text>
+</svg>

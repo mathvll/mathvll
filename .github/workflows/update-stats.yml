@@ -1,30 +1,31 @@
-name: Update GitHub Stats
+name: Gerar metricas do perfil
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # A cada 6 horas
-  workflow_dispatch:  # Permite execução manual
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  github-metrics:
+    if: ${{ secrets.METRICS_TOKEN != '' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Update README with GitHub Stats
-        uses: anmol098/waka-readme-stats@master
+      - name: Gerar painel de metricas
+        uses: lowlighter/metrics@latest
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          SHOW_LINES_OF_CODE: "True"
-          SHOW_PROFILE_VIEWS: "True"
-          SHOW_COMMIT: "True"
-          SHOW_DAYS_OF_WEEK: "True"
-          SHOW_LANGUAGE: "True"
-          SHOW_OS: "True"
-          SHOW_PROJECTS: "True"
-          SHOW_TIMEZONE: "True"
-          SHOW_EDITORS: "True"
-          SHOW_LANGUAGE_PER_REPO: "True"
-          SHOW_SHORT_INFO: "True"
-          SHOW_LOC_CHART: "False"
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: mathvll
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
