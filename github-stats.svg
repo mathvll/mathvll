@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="704" height="392" viewBox="0 0 704 392" role="img" aria-labelledby="statsTitle statsDesc">
   <title id="statsTitle">GitHub Stats</title>
-  <desc id="statsDesc">Card local temporario enquanto o workflow gera a versao automatica.</desc>
+  <desc id="statsDesc">Resumo tecnico do perfil do GitHub de mathvll.</desc>
   <defs>
     <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
@@ -10,6 +10,36 @@
   <rect width="704" height="392" rx="24" fill="url(#statsBg)" />
   <rect x="16" y="16" width="672" height="360" rx="22" fill="#0b1220" stroke="#1e293b" />
   <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">GitHub Stats</text>
-  <text x="32" y="92" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Este card agora e gerado dentro do repositorio.</text>
-  <text x="32" y="124" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Execute o workflow para substituir este placeholder pelos dados reais.</text>
+  <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Resumo local gerado por GitHub Actions para evitar dependencia de cards externos.</text>
+  
+      <g transform="translate(32,132)">
+        <rect width="192" height="96" rx="18" fill="#111827" stroke="#25324a" />
+        <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Repositorios</text>
+        <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">46</text>
+      </g>
+      <g transform="translate(256,132)">
+        <rect width="192" height="96" rx="18" fill="#111827" stroke="#25324a" />
+        <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Stars</text>
+        <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">1</text>
+      </g>
+      <g transform="translate(480,132)">
+        <rect width="192" height="96" rx="18" fill="#111827" stroke="#25324a" />
+        <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Forks</text>
+        <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">0</text>
+      </g>
+      <g transform="translate(32,256)">
+        <rect width="192" height="96" rx="18" fill="#111827" stroke="#25324a" />
+        <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Contribuicoes/ano</text>
+        <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">4.288</text>
+      </g>
+      <g transform="translate(256,256)">
+        <rect width="192" height="96" rx="18" fill="#111827" stroke="#25324a" />
+        <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Seguidores</text>
+        <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">6</text>
+      </g>
+      <g transform="translate(480,256)">
+        <rect width="192" height="96" rx="18" fill="#111827" stroke="#25324a" />
+        <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Seguindo</text>
+        <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">6</text>
+      </g>
 </svg>

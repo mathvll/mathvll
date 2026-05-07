@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="704" height="392" viewBox="0 0 704 392" role="img" aria-labelledby="langsTitle langsDesc">
   <title id="langsTitle">Top Langs</title>
-  <desc id="langsDesc">Card local temporario enquanto o workflow gera a versao automatica.</desc>
+  <desc id="langsDesc">Distribuicao de linguagens mais usadas no perfil de mathvll.</desc>
   <defs>
     <linearGradient id="langsBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
@@ -10,6 +10,38 @@
   <rect width="704" height="392" rx="24" fill="url(#langsBg)" />
   <rect x="16" y="16" width="672" height="360" rx="22" fill="#0b1220" stroke="#1e293b" />
   <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Top Langs</text>
-  <text x="32" y="92" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Este card local substitui o provedor externo que estava em 503.</text>
-  <text x="32" y="124" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Depois do workflow, ele passa a mostrar a distribuicao real das linguagens.</text>
+  <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Baseado no tamanho agregado das linguagens nos repositorios do perfil.</text>
+  <rect x="32" y="132" width="640" height="14" rx="7" fill="#111827" />
+  <rect x="32" y="132" width="348" height="14" rx="7" fill="#3178c6" /><rect x="380" y="132" width="131" height="14" rx="7" fill="#3572A5" /><rect x="511" y="132" width="82" height="14" rx="7" fill="#e34c26" /><rect x="593" y="132" width="35" height="14" rx="7" fill="#663399" /><rect x="628" y="132" width="26" height="14" rx="7" fill="#f1e05a" /><rect x="654" y="132" width="16" height="14" rx="7" fill="#336790" />
+  
+      <g transform="translate(32,184)">
+        <circle cx="10" cy="10" r="10" fill="#3178c6" />
+        <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
+        <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">54.4% do codigo analisado</text>
+      </g>
+      <g transform="translate(352,184)">
+        <circle cx="10" cy="10" r="10" fill="#3572A5" />
+        <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Python</text>
+        <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">20.5% do codigo analisado</text>
+      </g>
+      <g transform="translate(32,242)">
+        <circle cx="10" cy="10" r="10" fill="#e34c26" />
+        <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">HTML</text>
+        <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">12.8% do codigo analisado</text>
+      </g>
+      <g transform="translate(352,242)">
+        <circle cx="10" cy="10" r="10" fill="#663399" />
+        <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">CSS</text>
+        <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.5% do codigo analisado</text>
+      </g>
+      <g transform="translate(32,300)">
+        <circle cx="10" cy="10" r="10" fill="#f1e05a" />
+        <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">JavaScript</text>
+        <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">4.0% do codigo analisado</text>
+      </g>
+      <g transform="translate(352,300)">
+        <circle cx="10" cy="10" r="10" fill="#336790" />
+        <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">PLpgSQL</text>
+        <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">2.6% do codigo analisado</text>
+      </g>
 </svg>
