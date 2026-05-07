@@ -7,12 +7,20 @@ on:
 
 jobs:
   github-metrics:
-    if: ${{ secrets.METRICS_TOKEN != '' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
+      - name: Validar token
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -z "$METRICS_TOKEN" ]; then
+            echo "METRICS_TOKEN nao configurado"
+            exit 1
+          fi
+
       - name: Gerar painel de metricas
         uses: lowlighter/metrics@latest
         with:
