@@ -1,16 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="704" height="376" viewBox="0 0 704 376" role="img" aria-labelledby="langsTitle langsDesc">
-  <title id="langsTitle">Linguagens mais usadas</title>
-  <desc id="langsDesc">Distribuicao visual de linguagens usadas nos repositorios.</desc>
+  <title id="langsTitle">Top Langs</title>
+  <desc id="langsDesc">Linguagens mais usadas no perfil de mathvll.</desc>
   <defs>
-    <linearGradient id="langsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="langsTitleBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="55%" stop-color="#111827" />
       <stop offset="100%" stop-color="#1e3a5f" />
     </linearGradient>
   </defs>
-  <rect width="704" height="376" rx="18" fill="url(#langsBg)" />
+  <rect width="704" height="376" rx="18" fill="url(#langsTitleBg)" />
   <rect x="14" y="14" width="676" height="348" rx="14" fill="#0b1220" stroke="#24324a" />
   <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Linguagens mais usadas</text>
   <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Distribuicao agregada por tamanho de linguagem nos repositorios.</text>
-  <text x="32" y="164" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial, sans-serif">Leitura agregada das tecnologias mais presentes nos repositorios.</text>
+  <rect x="32" y="126" width="640" height="16" rx="8" fill="#111827" />
+  <rect x="32" y="126" width="348" height="16" rx="8" fill="#3178c6" />
+  <rect x="380" y="126" width="132" height="16" rx="8" fill="#3572A5" />
+  <rect x="512" y="126" width="82" height="16" rx="8" fill="#e34c26" />
+  <rect x="594" y="126" width="35" height="16" rx="8" fill="#663399" />
+  <rect x="629" y="126" width="26" height="16" rx="8" fill="#f1e05a" />
+  <rect x="655" y="126" width="17" height="16" rx="8" fill="#336790" />
+  <g transform="translate(32,178)">
+    <circle cx="10" cy="10" r="10" fill="#3178c6" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">54.4% do codigo analisado</text>
+  </g>
+  <g transform="translate(352,178)">
+    <circle cx="10" cy="10" r="10" fill="#3572A5" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Python</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">20.6% do codigo analisado</text>
+  </g>
+  <g transform="translate(32,236)">
+    <circle cx="10" cy="10" r="10" fill="#e34c26" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">HTML</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">12.8% do codigo analisado</text>
+  </g>
+  <g transform="translate(352,236)">
+    <circle cx="10" cy="10" r="10" fill="#663399" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">CSS</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.5% do codigo analisado</text>
+  </g>
+  <g transform="translate(32,294)">
+    <circle cx="10" cy="10" r="10" fill="#f1e05a" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">JavaScript</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">4.1% do codigo analisado</text>
+  </g>
+  <g transform="translate(352,294)">
+    <circle cx="10" cy="10" r="10" fill="#336790" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">PLpgSQL</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">2.6% do codigo analisado</text>
+  </g>
 </svg>

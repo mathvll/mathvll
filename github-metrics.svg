@@ -1,18 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-labelledby="metricsTitle metricsDesc">
   <title id="metricsTitle">Detalhamento tecnico</title>
-  <desc id="metricsDesc">Detalhamento visual de repositorios, contribuicoes, linguagens e organizacoes.</desc>
+  <desc id="metricsDesc">Detalhamento tecnico do perfil GitHub de mathvll.</desc>
   <defs>
-    <linearGradient id="metricsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="metricsTitleBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="55%" stop-color="#111827" />
       <stop offset="100%" stop-color="#1e3a5f" />
     </linearGradient>
   </defs>
-  <rect width="900" height="640" rx="18" fill="url(#metricsBg)" />
+  <rect width="900" height="640" rx="18" fill="url(#metricsTitleBg)" />
   <rect x="14" y="14" width="872" height="612" rx="14" fill="#0b1220" stroke="#24324a" />
   <text x="40" y="58" fill="#f8fafc" font-size="32" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Detalhamento tecnico</text>
   <text x="40" y="90" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Visao consolidada de repositorios, contribuicoes, linguagens e organizacoes.</text>
-  <rect x="40" y="130" width="820" height="380" rx="12" fill="#111827" stroke="#25324a" />
-  <text x="70" y="194" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial, sans-serif">Repositorios, contribuicoes, linguagens e organizacoes em uma visao unica.</text>
-  <text x="70" y="238" fill="#f8fafc" font-size="18" font-family="Segoe UI, Arial, sans-serif">Layout amplo para leitura direta no perfil, sem cortes no rodape.</text>
+  <g transform="translate(40,118)">
+    <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="18" y="32" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Conta criada em</text>
+    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">18/06/2021</text>
+  </g>
+  <g transform="translate(322,118)">
+    <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="18" y="32" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Repositorios</text>
+    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">46</text>
+  </g>
+  <g transform="translate(604,118)">
+    <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="18" y="32" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Organizacoes visiveis</text>
+    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Nao disponivel</text>
+  </g>
+  <g transform="translate(40,240)">
+    <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="18" y="32" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Contribuicoes no ano</text>
+    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">4.290</text>
+  </g>
+  <g transform="translate(322,240)">
+    <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="18" y="32" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Stars recebidas</text>
+    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">1</text>
+  </g>
+  <g transform="translate(604,240)">
+    <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="18" y="32" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Forks recebidos</text>
+    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">0</text>
+  </g>
+  <text x="40" y="382" fill="#f8fafc" font-size="22" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Linguagens agregadas</text>
+  <text x="504" y="382" fill="#f8fafc" font-size="22" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Contexto recente</text>
+  <g transform="translate(40,420)">
+    <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
+    <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
+    <rect x="150" y="2" width="145" height="12" rx="6" fill="#3178c6" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">55.9%</text>
+  </g>
+  <g transform="translate(40,462)">
+    <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Python</text>
+    <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
+    <rect x="150" y="2" width="55" height="12" rx="6" fill="#3572A5" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">21.1%</text>
+  </g>
+  <g transform="translate(40,504)">
+    <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">HTML</text>
+    <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
+    <rect x="150" y="2" width="34" height="12" rx="6" fill="#e34c26" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">13.2%</text>
+  </g>
+  <g transform="translate(40,546)">
+    <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">CSS</text>
+    <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
+    <rect x="150" y="2" width="15" height="12" rx="6" fill="#663399" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.7%</text>
+  </g>
+  <g transform="translate(40,588)">
+    <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">JavaScript</text>
+    <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
+    <rect x="150" y="2" width="11" height="12" rx="6" fill="#f1e05a" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">4.2%</text>
+  </g>
+  <g transform="translate(504,410)">
+    <rect width="356" height="170" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="20" y="34" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Organizacoes</text>
+    <text x="20" y="62" fill="#f8fafc" font-size="16" font-family="Segoe UI, Arial, sans-serif">Organizacoes nao disponiveis</text>
+    <text x="20" y="106" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Repositorio atualizado recentemente</text>
+    <text x="20" y="134" fill="#f8fafc" font-size="16" font-family="Segoe UI, Arial, sans-serif">Mercado-Ta-Na-Mao</text>
+  </g>
 </svg>

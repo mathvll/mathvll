@@ -1,16 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="704" height="376" viewBox="0 0 704 376" role="img" aria-labelledby="statsTitle statsDesc">
-  <title id="statsTitle">Resumo da atividade</title>
-  <desc id="statsDesc">Resumo visual de atividade no GitHub.</desc>
+  <title id="statsTitle">GitHub Stats</title>
+  <desc id="statsDesc">Resumo do perfil GitHub de mathvll.</desc>
   <defs>
-    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="statsTitleBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="55%" stop-color="#111827" />
       <stop offset="100%" stop-color="#1e3a5f" />
     </linearGradient>
   </defs>
-  <rect width="704" height="376" rx="18" fill="url(#statsBg)" />
+  <rect width="704" height="376" rx="18" fill="url(#statsTitleBg)" />
   <rect x="14" y="14" width="676" height="348" rx="14" fill="#0b1220" stroke="#24324a" />
   <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Resumo da atividade</text>
   <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Indicadores gerais do perfil e dos repositorios.</text>
-  <text x="32" y="164" fill="#93c5fd" font-size="16" font-family="Segoe UI, Arial, sans-serif">Atividade consolidada em repositorios, contribuicoes e interacoes publicas.</text>
+  <g transform="translate(32,124)">
+    <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Repositorios</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">46</text>
+  </g>
+  <g transform="translate(256,124)">
+    <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Contribuicoes</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">4.290</text>
+  </g>
+  <g transform="translate(480,124)">
+    <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Stars</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">1</text>
+  </g>
+  <g transform="translate(32,248)">
+    <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Forks</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">0</text>
+  </g>
+  <g transform="translate(256,248)">
+    <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Seguidores</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">6</text>
+  </g>
+  <g transform="translate(480,248)">
+    <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
+    <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Seguindo</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">6</text>
+  </g>
 </svg>
