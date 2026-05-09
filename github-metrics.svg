@@ -30,7 +30,7 @@
   <g transform="translate(40,240)">
     <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
     <text x="18" y="32" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Contribuicoes no ano</text>
-    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">4.369</text>
+    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">4.412</text>
   </g>
   <g transform="translate(322,240)">
     <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
@@ -47,26 +47,26 @@
   <g transform="translate(40,420)">
     <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
     <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
-    <rect x="150" y="2" width="147" height="12" rx="6" fill="#3178c6" />
-    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">56.5%</text>
+    <rect x="150" y="2" width="148" height="12" rx="6" fill="#3178c6" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">56.9%</text>
   </g>
   <g transform="translate(40,462)">
     <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Python</text>
     <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
-    <rect x="150" y="2" width="54" height="12" rx="6" fill="#3572A5" />
-    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">20.8%</text>
+    <rect x="150" y="2" width="53" height="12" rx="6" fill="#3572A5" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">20.5%</text>
   </g>
   <g transform="translate(40,504)">
     <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">HTML</text>
     <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
-    <rect x="150" y="2" width="34" height="12" rx="6" fill="#e34c26" />
-    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">13.0%</text>
+    <rect x="150" y="2" width="33" height="12" rx="6" fill="#e34c26" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">12.8%</text>
   </g>
   <g transform="translate(40,546)">
     <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">CSS</text>
     <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
-    <rect x="150" y="2" width="15" height="12" rx="6" fill="#663399" />
-    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.6%</text>
+    <rect x="150" y="2" width="14" height="12" rx="6" fill="#663399" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.5%</text>
   </g>
   <g transform="translate(40,588)">
     <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">JavaScript</text>
@@ -79,6 +79,6 @@
     <text x="20" y="34" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Organizacoes</text>
     <text x="20" y="62" fill="#f8fafc" font-size="16" font-family="Segoe UI, Arial, sans-serif">Organizacoes nao disponiveis</text>
     <text x="20" y="106" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Repositorio atualizado recentemente</text>
-    <text x="20" y="134" fill="#f8fafc" font-size="16" font-family="Segoe UI, Arial, sans-serif">xoplanilha</text>
+    <text x="20" y="134" fill="#f8fafc" font-size="16" font-family="Segoe UI, Arial, sans-serif">Mercado-Ta-Na-Mao</text>
   </g>
 </svg>
