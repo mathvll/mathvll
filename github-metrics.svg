@@ -30,7 +30,7 @@
   <g transform="translate(40,240)">
     <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
     <text x="18" y="32" fill="#93c5fd" font-size="14" font-family="Segoe UI, Arial, sans-serif">Contribuicoes no ano</text>
-    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">4.571</text>
+    <text x="18" y="62" fill="#f8fafc" font-size="23" font-weight="700" font-family="Segoe UI, Arial, sans-serif">4.579</text>
   </g>
   <g transform="translate(322,240)">
     <rect width="242" height="88" rx="12" fill="#111827" stroke="#25324a" />
@@ -47,8 +47,8 @@
   <g transform="translate(40,420)">
     <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
     <rect x="150" y="2" width="260" height="12" rx="6" fill="#111827" />
-    <rect x="150" y="2" width="150" height="12" rx="6" fill="#3178c6" />
-    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">57.9%</text>
+    <rect x="150" y="2" width="151" height="12" rx="6" fill="#3178c6" />
+    <text x="430" y="14" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">58.0%</text>
   </g>
   <g transform="translate(40,462)">
     <text x="0" y="14" fill="#f8fafc" font-size="15" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Python</text>
