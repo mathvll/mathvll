@@ -13,12 +13,12 @@
   <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Linguagens mais usadas</text>
   <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Distribuicao agregada por tamanho de linguagem nos repositorios.</text>
   <rect x="32" y="126" width="640" height="16" rx="8" fill="#111827" />
-  <rect x="32" y="126" width="362" height="16" rx="8" fill="#3178c6" />
-  <rect x="394" y="126" width="124" height="16" rx="8" fill="#3572A5" />
-  <rect x="518" y="126" width="78" height="16" rx="8" fill="#e34c26" />
-  <rect x="596" y="126" width="33" height="16" rx="8" fill="#663399" />
-  <rect x="629" y="126" width="26" height="16" rx="8" fill="#f1e05a" />
-  <rect x="655" y="126" width="17" height="16" rx="8" fill="#336790" />
+  <rect x="32" y="126" width="363" height="16" rx="8" fill="#3178c6" />
+  <rect x="395" y="126" width="124" height="16" rx="8" fill="#3572A5" />
+  <rect x="519" y="126" width="77" height="16" rx="8" fill="#e34c26" />
+  <rect x="596" y="126" width="34" height="16" rx="8" fill="#663399" />
+  <rect x="630" y="126" width="26" height="16" rx="8" fill="#f1e05a" />
+  <rect x="656" y="126" width="16" height="16" rx="8" fill="#336790" />
   <g transform="translate(32,178)">
     <circle cx="10" cy="10" r="10" fill="#3178c6" />
     <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
