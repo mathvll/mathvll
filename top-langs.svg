@@ -22,7 +22,7 @@
   <g transform="translate(32,178)">
     <circle cx="10" cy="10" r="10" fill="#3178c6" />
     <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">56.6% do codigo analisado</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">56.7% do codigo analisado</text>
   </g>
   <g transform="translate(352,178)">
     <circle cx="10" cy="10" r="10" fill="#3572A5" />
