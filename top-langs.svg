@@ -13,16 +13,16 @@
   <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Linguagens mais usadas</text>
   <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Distribuicao agregada por tamanho de linguagem nos repositorios.</text>
   <rect x="32" y="126" width="640" height="16" rx="8" fill="#111827" />
-  <rect x="32" y="126" width="369" height="16" rx="8" fill="#3178c6" />
-  <rect x="401" y="126" width="121" height="16" rx="8" fill="#3572A5" />
-  <rect x="522" y="126" width="75" height="16" rx="8" fill="#e34c26" />
-  <rect x="597" y="126" width="33" height="16" rx="8" fill="#663399" />
-  <rect x="630" y="126" width="26" height="16" rx="8" fill="#f1e05a" />
-  <rect x="656" y="126" width="16" height="16" rx="8" fill="#336790" />
+  <rect x="32" y="126" width="370" height="16" rx="8" fill="#3178c6" />
+  <rect x="402" y="126" width="121" height="16" rx="8" fill="#3572A5" />
+  <rect x="523" y="126" width="75" height="16" rx="8" fill="#e34c26" />
+  <rect x="598" y="126" width="33" height="16" rx="8" fill="#663399" />
+  <rect x="631" y="126" width="26" height="16" rx="8" fill="#f1e05a" />
+  <rect x="657" y="126" width="15" height="16" rx="8" fill="#336790" />
   <g transform="translate(32,178)">
     <circle cx="10" cy="10" r="10" fill="#3178c6" />
     <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">57.6% do codigo analisado</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">57.8% do codigo analisado</text>
   </g>
   <g transform="translate(352,178)">
     <circle cx="10" cy="10" r="10" fill="#3572A5" />
@@ -32,12 +32,12 @@
   <g transform="translate(32,236)">
     <circle cx="10" cy="10" r="10" fill="#e34c26" />
     <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">HTML</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">11.8% do codigo analisado</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">11.7% do codigo analisado</text>
   </g>
   <g transform="translate(352,236)">
     <circle cx="10" cy="10" r="10" fill="#663399" />
     <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">CSS</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.2% do codigo analisado</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.1% do codigo analisado</text>
   </g>
   <g transform="translate(32,294)">
     <circle cx="10" cy="10" r="10" fill="#f1e05a" />
