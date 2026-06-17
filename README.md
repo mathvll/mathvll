@@ -2,7 +2,6 @@
 
 # Matheus Villar
 
-Python developer focado em automacao, web scraping e backend para transformar tarefas manuais em fluxos previsiveis.
 
 [![GitHub followers](https://img.shields.io/github/followers/mathvll?style=social)](https://github.com/mathvll)
 ![Profile Views](https://komarev.com/ghpvc/?username=mathvll&color=2f81f7&style=flat-square)
