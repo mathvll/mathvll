@@ -23,25 +23,6 @@ Quem chega por aqui vai encontrar um perfil voltado a:
 
 ---
 
-## Como contribuo
-
-### Captacao e enriquecimento de dados
-
-Construo rotinas de scraping para prospeccao, monitoramento e estruturacao de informacoes, com foco em transformar navegacao manual em pipeline repetivel.
-
-Stack recorrente: `Python`, `Selenium`, `BeautifulSoup`, `MongoDB`
-
-### Backends para operacao
-
-Desenvolvo ferramentas internas e CRMs sob medida para centralizar dados, reduzir atrito operacional e simplificar fluxos que normalmente ficam espalhados em planilhas e tarefas manuais.
-
-Stack recorrente: `Python`, `Flask`, `SQLite`, `PostgreSQL`
-
-### Automacoes orientadas a produtividade
-
-Crio scripts e integracoes para eliminar tarefas repetitivas, diminuir tempo de execucao e aumentar previsibilidade em processos tecnicos e operacionais.
-
----
 
 ## Tecnologias
 
