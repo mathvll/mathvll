@@ -13,40 +13,40 @@
   <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Linguagens mais usadas</text>
   <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Distribuicao agregada por tamanho de linguagem nos repositorios.</text>
   <rect x="32" y="126" width="640" height="16" rx="8" fill="#111827" />
-  <rect x="32" y="126" width="369" height="16" rx="8" fill="#3178c6" />
-  <rect x="401" y="126" width="120" height="16" rx="8" fill="#3572A5" />
-  <rect x="521" y="126" width="75" height="16" rx="8" fill="#e34c26" />
-  <rect x="596" y="126" width="34" height="16" rx="8" fill="#663399" />
-  <rect x="630" y="126" width="25" height="16" rx="8" fill="#f1e05a" />
-  <rect x="655" y="126" width="17" height="16" rx="8" fill="#336790" />
+  <rect x="32" y="126" width="555" height="16" rx="8" fill="#3178c6" />
+  <rect x="587" y="126" width="33" height="16" rx="8" fill="#89e051" />
+  <rect x="620" y="126" width="28" height="16" rx="8" fill="#663399" />
+  <rect x="648" y="126" width="15" height="16" rx="8" fill="#3572A5" />
+  <rect x="663" y="126" width="8" height="16" rx="8" fill="#e34c26" />
+  <rect x="671" y="126" width="1" height="16" rx="8" fill="#f1e05a" />
   <g transform="translate(32,178)">
     <circle cx="10" cy="10" r="10" fill="#3178c6" />
     <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">TypeScript</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">57.7% do codigo analisado</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">86.7% do codigo analisado</text>
   </g>
   <g transform="translate(352,178)">
-    <circle cx="10" cy="10" r="10" fill="#3572A5" />
-    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Python</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">18.8% do codigo analisado</text>
+    <circle cx="10" cy="10" r="10" fill="#89e051" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Shell</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.2% do codigo analisado</text>
   </g>
   <g transform="translate(32,236)">
-    <circle cx="10" cy="10" r="10" fill="#e34c26" />
-    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">HTML</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">11.7% do codigo analisado</text>
-  </g>
-  <g transform="translate(352,236)">
     <circle cx="10" cy="10" r="10" fill="#663399" />
     <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">CSS</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">5.3% do codigo analisado</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">4.4% do codigo analisado</text>
+  </g>
+  <g transform="translate(352,236)">
+    <circle cx="10" cy="10" r="10" fill="#3572A5" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Python</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">2.3% do codigo analisado</text>
   </g>
   <g transform="translate(32,294)">
-    <circle cx="10" cy="10" r="10" fill="#f1e05a" />
-    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">JavaScript</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">4.0% do codigo analisado</text>
+    <circle cx="10" cy="10" r="10" fill="#e34c26" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">HTML</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">0.9% do codigo analisado</text>
   </g>
   <g transform="translate(352,294)">
-    <circle cx="10" cy="10" r="10" fill="#336790" />
-    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">PLpgSQL</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">2.5% do codigo analisado</text>
+    <circle cx="10" cy="10" r="10" fill="#f1e05a" />
+    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">JavaScript</text>
+    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">0.5% do codigo analisado</text>
   </g>
 </svg>

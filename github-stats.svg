@@ -15,17 +15,17 @@
   <g transform="translate(32,124)">
     <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
     <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Repositorios</text>
-    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">49</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">5</text>
   </g>
   <g transform="translate(256,124)">
     <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
     <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Contribuicoes</text>
-    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">4.988</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">5.881</text>
   </g>
   <g transform="translate(480,124)">
     <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
     <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Stars</text>
-    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">1</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">0</text>
   </g>
   <g transform="translate(32,248)">
     <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
@@ -35,11 +35,11 @@
   <g transform="translate(256,248)">
     <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
     <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Seguidores</text>
-    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">6</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">7</text>
   </g>
   <g transform="translate(480,248)">
     <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
     <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">Seguindo</text>
-    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">6</text>
+    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">8</text>
   </g>
 </svg>
