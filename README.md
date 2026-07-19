@@ -44,7 +44,7 @@ Desde 2024, transformo problemas operacionais em software: comecei automatizando
 
 ## Aprendendo
 
-![SwiftUI](https://img.shields.io/badge/SwiftUI-FA7343?style=flat-square&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6.svg?style=flat-square&logo=swift&logoColor=white&cacheSeconds=86400)
 ![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=flat-square&logo=zsh&logoColor=white)
 
 ## Atividade pública
