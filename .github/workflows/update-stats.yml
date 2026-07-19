@@ -5,38 +5,34 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       contents: write
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Validar token
-        env:
-          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        run: |
-          if [ -z "$METRICS_TOKEN" ]; then
-            echo "METRICS_TOKEN nao configurado"
-            exit 1
-          fi
+        uses: actions/checkout@v6
 
       - name: Configurar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Gerar SVGs locais
         env:
-          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
-          GITHUB_USERNAME: mathvll
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
         run: python scripts/generate_profile_cards.py
 
       - name: Commitar SVGs atualizados
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: atualiza cards de metricas do perfil"
           file_pattern: "github-stats.svg top-langs.svg github-metrics.svg"

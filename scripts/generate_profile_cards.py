@@ -13,7 +13,7 @@ OUTPUT_STATS = REPO_ROOT / "github-stats.svg"
 OUTPUT_LANGS = REPO_ROOT / "top-langs.svg"
 OUTPUT_METRICS = REPO_ROOT / "github-metrics.svg"
 USERNAME = os.environ.get("GITHUB_USERNAME", "mathvll")
-TOKEN = os.environ.get("METRICS_TOKEN")
+TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("METRICS_TOKEN")
 
 
 GRAPHQL_QUERY = """
@@ -79,7 +79,7 @@ query ProfileOrganizations($login: String!) {
 
 def post_graphql(query: str, variables: dict) -> dict:
     if not TOKEN:
-        raise RuntimeError("METRICS_TOKEN nao configurado.")
+        raise RuntimeError("GITHUB_TOKEN nao configurado.")
 
     payload = json.dumps({"query": query, "variables": variables}).encode("utf-8")
     request = urllib.request.Request(

@@ -2,78 +2,52 @@
 
 # Matheus Villar
 
+**Não parei um dia desde que uma automação em Python trouxe, sem custo, os primeiros clientes da minha loja SMM em 2024.**
 
-[![GitHub followers](https://img.shields.io/github/followers/mathvll?style=social)](https://github.com/mathvll)
-![Profile Views](https://komarev.com/ghpvc/?username=mathvll&color=2f81f7&style=flat-square)
+Desenvolvedor full-stack focado em SaaS B2B/B2C, automação de operações e produtos do ecossistema SMM.
 
 </div>
 
----
+## Hoje
 
-## Perfil
+Desde 2024, transformo problemas operacionais em software: comecei automatizando aquisição e hoje construo, mantenho e evoluo plataformas SaaS da HyppeSocial.
 
-Desenvolvo solucoes em Python para reduzir trabalho operacional, organizar coleta de dados e transformar rotinas repetitivas em processos mais consistentes.
+- Produtos web completos, do banco de dados ao frontend
+- Autenticação, pagamentos, dashboards e integrações com APIs
+- Automações, scraping e rotinas para reduzir trabalho manual
+- Correções, novas features, migrações e manutenção de sistemas em produção
 
-Quem chega por aqui vai encontrar um perfil voltado a:
+## Stack principal
 
-- automacao de processos e tarefas internas
-- web scraping com coleta estruturada e persistencia de dados
-- backend leve para ferramentas internas, APIs e CRMs customizados
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
----
+## Ferramentas que uso no dia a dia
 
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=000000)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000000)
 
-## Tecnologias
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
----
-
-## Contribuicoes
+## Atividade pública
 
 <div align="center">
 
-![GitHub Stats](./github-stats.svg)
-![Top Langs](./top-langs.svg)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=mathvll&locale=pt_BR&theme=tokyonight&hide_border=true)
+![Resumo da atividade no GitHub](./github-stats.svg)
+![Linguagens mais usadas nos repositórios](./top-langs.svg)
 
 </div>
-
-## Detalhamento tecnico
-
-<div align="center">
-
-![Detalhamento tecnico](./github-metrics.svg)
-
-</div>
-
-## Historico de atividade
-
-<div align="center">
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mathvll&theme=tokyo-night&hide_border=true&custom_title=Historico%20de%20atividade)
-
-</div>
-
----
-
-## Interesses tecnicos
-
-- automacao de operacoes e rotinas internas
-- scraping e monitoramento de fontes web
-- modelagem simples de dados para ferramentas sob medida
-- backends enxutos com foco em manutencao
-
----
-
-## Contato
-
-Aberto a conexoes, colaboracoes e conversas sobre automacao, scraping, backend e solucao de problemas com Python.
