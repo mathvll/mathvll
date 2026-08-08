@@ -1,10 +1,22 @@
-Founder · Developer · Product
+<div align="center">
 
-Gosto de transformar ideia em produto — e produto em algo que realmente funciona.
+Sobre
 
-No dia a dia, fico entre código, produto e negócio: pensando na solução, construindo, colocando no ar e melhorando conforme ela é usada.
+Não parei um dia desde que uma das minhas primeiras automações em Python trouxe, sem custo, meus primeiros clientes para uma loja SMM em 2024.
 
-Hoje, meu foco está em SaaS, automações e produtos digitais, principalmente dentro do ecossistema SMM, com a minha empresa HyppeSocial.
+</div>
+
+O que eu faço
+
+Gosto de tirar ideias do papel e colocar produto em produção.
+
+No meio disso, acabo mexendo em bastante coisa: código, produto, infraestrutura, automações e decisões de negócio.
+
+Hoje, meu foco está em construir e operar SaaS e produtos digitais, principalmente através da HyppeSocial e de projetos próprios.
+
+* 💻 Código — full-stack, com foco em backend
+* 🧠 Produto — arquitetura, decisões e evolução
+* 🤖 Automação — integrações, processos e tudo que dá pra deixar rodando sozinho
 
 * 🧠 Produto — da ideia à execução
 * 💻 Código — full-stack, com carinho especial pelo backend
