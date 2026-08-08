@@ -9,7 +9,7 @@
 
 ### Dev
 
-Dev FullStack (com ênfase em Backend🫣)
+- Sou Dev FullStack (com ênfase em Backend🫣)
 
 - Diariamente trabalho desenvolvendo/Aprimorando 3 a 5 projetos do Ecossistema HyppeSocial.
 
