@@ -19,7 +19,10 @@ Também gosto bastante de scripts e automações, principalmente para resolver t
 No meio disso, acabo mexendo em bastante coisa: código, produto, infraestrutura, automações e decisões de negócio.
 
 ### O Foco Principal
-Hoje, meu foco está em construir e operar SaaS e produtos digitais, principalmente através da HyppeSocial e de projetos próprios.
+Hoje, meu foco do dia a dia está em implementar melhorias para dentro do escopo HyppeSocial, readaptar aplicações antigas para retomar Estado de Produção.
+
+
+### O que eu lido no dia a dia
 
 * 💻 Código — full-stack, com foco em backend
 * 🧠 Produto — arquitetura, decisões e evolução
