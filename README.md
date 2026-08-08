@@ -1,8 +1,7 @@
 <div align="center">
 
-Sobre
 
-Não parei um dia desde que uma das minhas primeiras automações em Python trouxe, sem custo, meus primeiros clientes para minha lojinha SMM em 2024.
+"Não parei um dia desde que uma das minhas primeiras automações em Python trouxe, sem custo, meus primeiros clientes para minha lojinha SMM em 2024."
 
 </div>
 
