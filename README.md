@@ -1,26 +1,14 @@
-<div align="center">
+Founder · Developer · Product
 
-# Sobre
+Gosto de transformar ideia em produto — e produto em algo que realmente funciona.
 
-**Não parei um dia desde que uma das minhas automações em Python trouxe, sem custo, os meus primeiros clientes da minha loja SMM em 2024.**
+No dia a dia, fico entre código, produto e negócio: pensando na solução, construindo, colocando no ar e melhorando conforme ela é usada.
 
+Hoje, meu foco está em SaaS, automações e produtos digitais, principalmente dentro do ecossistema SMM, com a minha empresa HyppeSocial.
 
-
-## XP
-Desenvolvedor full-stack (Com ênfase em Backend 🫣) Experiência e Foco em SaaS B2B/B2C, automatização de processos, e vendas no mercado digital, Principalmente no ecossistema SMM.
-
-
-
-### Mais
-
-Desde 2024, conectando meu conhecimento em 2 mundos diversos: Desenvolvimento + Marketing (Trafego Pago).
-
- comecei automatizando prospecção e conversão de clientes, e hoje construo, mantenho e evoluo plataformas SaaS da HyppeSocial.
-
-- Produtos web completos, do banco de dados ao frontend
-- Autenticação, pagamentos, dashboards e integrações com APIs
-- Automações, scraping e rotinas para reduzir trabalho manual
-- Correções, novas features, migrações e manutenção de sistemas em produção
+* 🧠 Produto — da ideia à execução
+* 💻 Código — full-stack, com carinho especial pelo backend
+* 🤖 Automação — fazendo o computador trabalhar um pouco mais por mim
 
 ## Stack principal
 
