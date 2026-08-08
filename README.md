@@ -11,14 +11,15 @@
 
 - Sou Dev FullStack (com ênfase em Backend🫣)
 
-- Diariamente trabalho desenvolvendo/Aprimorando 3 a 5 projetos do Ecossistema HyppeSocial.
+- Diariamente trabalho desenvolvendo/Aprimorando 3/4 projetos do Ecossistema HyppeSocial + outros externos.
 
-- Lido diariamente com implementações em Sistemas Web, APIs, Scripts. criando/melhorando fluxo de Testes, Build/Deploy
+- Lido diariamente com implementações e Correções em Sistemas Web, APIs, Scripts. 
+- Crio/Melhoro fluxo de Testes, Build/Deploy até otimização de UI/UX.
 
 ### O Marketing
-Além das linhas de codigo, dos bugs, dos Commit + Push nosso de cada dia eu também: 
+Além das linhas de codigo, dos bugs, dos Commit + Push de cada dia, eu também: 
 
-Possuo experiencia, gosto e sei lidar com Marketing Digital, especificamente falando de trafego pago através dos veiculos Tráfego Pago como **Google Ads** e **Meta Ads**
+Possuo experiencia, gosto e sei lidar com Marketing Digital, especificamente falando de trafego pago através dos veiculos Tráfego Pago como **Google Ads** e **Meta Ads**.
 
 **Experiencia**
 - 2 Anos+ De experiencia com Trafego pago.
