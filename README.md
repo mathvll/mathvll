@@ -2,16 +2,23 @@
 
 Sobre
 
-Não parei um dia desde que uma das minhas primeiras automações em Python trouxe, sem custo, meus primeiros clientes para uma loja SMM em 2024.
+Não parei um dia desde que uma das minhas primeiras automações em Python trouxe, sem custo, meus primeiros clientes para minha lojinha SMM em 2024.
 
 </div>
 
 O que eu faço
 
-Gosto de tirar ideias do papel e colocar produto em produção.
+Gosto de entender como as pessoas realmente usam minhas aplicações e usar isso para decidir o que pode ser melhorado.
+
+Quase sempre tem alguma coisa para otimizar — uma funcionalidade, um fluxo, uma consulta, uma rotina ou simplesmente uma tarefa que ainda está sendo feita manualmente.
+
+
+Também gosto bastante de scripts e automações, principalmente para resolver tarefas locais e operacionais, reduzir trabalho repetitivo e deixar os sistemas mais eficientes.
+
 
 No meio disso, acabo mexendo em bastante coisa: código, produto, infraestrutura, automações e decisões de negócio.
 
+### O Foco Principal
 Hoje, meu foco está em construir e operar SaaS e produtos digitais, principalmente através da HyppeSocial e de projetos próprios.
 
 * 💻 Código — full-stack, com foco em backend
