@@ -11,7 +11,9 @@ Desenvolvedor full-stack (Com ênfase em Backend 🫣) Experiência e Foco em Sa
 
 ### Mais
 
-Desde 2024, transformo problemas operacionais em software: comecei automatizando aquisição e hoje construo, mantenho e evoluo plataformas SaaS da HyppeSocial.
+Desde 2024, conectando meu conhecimento em 2 mundos diversos: Desenvolvimento + Marketing (Trafego Pago).
+
+ comecei automatizando prospecção e conversão de clientes, e hoje construo, mantenho e evoluo plataformas SaaS da HyppeSocial.
 
 - Produtos web completos, do banco de dados ao frontend
 - Autenticação, pagamentos, dashboards e integrações com APIs
