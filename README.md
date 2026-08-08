@@ -2,7 +2,7 @@
 
 # Matheus Villar
 
-**Não parei um dia desde que uma automação em Python trouxe, sem custo, os primeiros clientes da minha loja SMM em 2024.**
+**Não parei um dia desde que uma das minhas automações em Python trouxe, sem custo, os meus primeiros clientes da minha loja SMM em 2024.**
 
 Desenvolvedor full-stack focado em SaaS B2B/B2C, automação de operações e produtos do ecossistema SMM.
 
