@@ -6,7 +6,21 @@ Não parei um dia desde que uma das minhas primeiras automações em Python trou
 
 </div>
 
-O que eu faço
+## O que eu faço
+
+Sou um Desenvolvedor Full Stack, então lido diariamente com implementações em sistema Web. 
+
+### O Marketing
+Além disso, tenho experiencia, gosto, e sei lidar com Marketing Digital, especificamente trafego pago.
+
+**Experiencia**
+- 2 Anos+ De experiencia com Trafego pago.
+- 100K+ Conversões Realizadas no Mercado SMM.
+
+- Grande Marco: 
+43% Taxa de conversão média, em 04/2025.
+
+com veiculos de campanhas de marketing como Google Ads + Meta Ads.
 
 Gosto de entender como as pessoas realmente usam minhas aplicações e usar isso para decidir o que pode ser melhorado.
 
