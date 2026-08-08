@@ -1,6 +1,6 @@
 <div align="center">
 
-# Matheus Villar
+# Sobre
 
 **Não parei um dia desde que uma das minhas automações em Python trouxe, sem custo, os meus primeiros clientes da minha loja SMM em 2024.**
 
