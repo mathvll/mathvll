@@ -4,7 +4,7 @@
 
 **Não parei um dia desde que uma das minhas automações em Python trouxe, sem custo, os meus primeiros clientes da minha loja SMM em 2024.**
 
-Desenvolvedor full-stack focado em SaaS B2B/B2C, automação de operações e produtos do ecossistema SMM.
+Desenvolvedor full-stack (Com ênfase em Backend 🫣) Experiência e Foco em SaaS B2B/B2C, automatização de processos, e vendas no mercado digital, Principalmente no ecossistema SMM.
 
 </div>
 
