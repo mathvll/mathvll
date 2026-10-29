@@ -196,58 +196,38 @@ def build_stats_svg(profile: dict) -> str:
     return svg_shell(704, 376, "statsTitle", "statsDesc", "GitHub Stats", f"Resumo do perfil GitHub de {profile['login']}.", body)
 
 
-def build_lang_bar(top_languages: list[tuple[str, int]], colors: dict[str, str], total_size: int) -> str:
-    x = 32
-    y = 126
-    width = 640
-    segments = [f'  <rect x="{x}" y="{y}" width="{width}" height="16" rx="8" fill="#111827" />']
-
-    used_width = 0
-    for index, (language, size) in enumerate(top_languages):
-        if total_size == 0:
-            segment_width = 0
-        elif index == len(top_languages) - 1:
-            segment_width = max(0, width - used_width)
-        else:
-            segment_width = max(8, round((size / total_size) * width))
-        if segment_width:
-            segments.append(
-                f'  <rect x="{x + used_width}" y="{y}" width="{segment_width}" height="16" rx="8" fill="{colors.get(language, "#94a3b8")}" />'
-            )
-        used_width += segment_width
-
-    return "\n".join(segments)
-
-
 def build_langs_svg(profile: dict) -> str:
     languages, colors = language_totals(profile)
     top_languages = languages[:6]
-    total_size = sum(size for _, size in top_languages)
+    total_size = sum(size for _, size in languages)
+    language_marks = {
+        "TypeScript": "TS", "JavaScript": "JS", "Python": "Py", "HTML": "H5",
+        "CSS": "CSS", "Java": "J", "Go": "Go", "Rust": "Rs", "C++": "C++",
+        "C#": "C#", "Ruby": "Rb", "PHP": "PHP", "Swift": "Sw", "Kotlin": "Kt",
+    }
 
-    legend = []
-    start_y = 178
+    marks = []
+    column_width = 640 / max(len(top_languages), 1)
     for index, (language, size) in enumerate(top_languages):
-        col = index % 2
-        row = index // 2
-        x = 32 + (col * 320)
-        y = start_y + (row * 58)
+        center_x = 32 + column_width * (index + 0.5)
         percentage = 0 if total_size == 0 else (size / total_size) * 100
-        legend.append(
-            f"""  <g transform="translate({x},{y})">
-    <circle cx="10" cy="10" r="10" fill="{colors.get(language, '#94a3b8')}" />
-    <text x="30" y="14" fill="#f8fafc" font-size="18" font-weight="600" font-family="Segoe UI, Arial, sans-serif">{escape(language)}</text>
-    <text x="30" y="38" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">{percentage:.1f}% do codigo analisado</text>
-  </g>"""
+        mark = language_marks.get(language, language[:2])
+        marks.append(
+            f'''  <g transform="translate({center_x:.1f},0)">
+    <circle cx="0" cy="126" r="27" fill="{colors.get(language, '#94a3b8')}" fill-opacity="0.18" stroke="{colors.get(language, '#94a3b8')}" stroke-width="2" />
+    <text x="0" y="132" text-anchor="middle" fill="#f8fafc" font-size="{12 if len(mark) > 2 else 15}" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{escape(mark)}</text>
+    <text x="0" y="174" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{percentage:.1f}%</text>
+    <text x="0" y="198" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Segoe UI, Arial, sans-serif">{escape(language)}</text>
+  </g>'''
         )
 
-    if not legend:
-        legend.append('  <text x="32" y="190" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Nenhuma linguagem detectada nos repositorios analisados.</text>')
+    if not marks:
+        marks.append('  <text x="352" y="148" text-anchor="middle" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Nenhuma linguagem detectada nos repositórios analisados.</text>')
 
     body = f"""  <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Linguagens mais usadas</text>
-  <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Distribuicao agregada por tamanho de linguagem nos repositorios.</text>
-{build_lang_bar(top_languages, colors, total_size)}
-{chr(10).join(legend)}"""
-    return svg_shell(704, 376, "langsTitle", "langsDesc", "Top Langs", f"Linguagens mais usadas no perfil de {profile['login']}.", body)
+  <text x="32" y="88" fill="#94a3b8" font-size="15" font-family="Segoe UI, Arial, sans-serif">Percentual do código analisado nos repositórios próprios.</text>
+{chr(10).join(marks)}"""
+    return svg_shell(704, 224, "langsTitle", "langsDesc", "Top Langs", f"Linguagens mais usadas no perfil de {profile['login']}.", body)
 
 
 def build_metrics_svg(profile: dict) -> str:
