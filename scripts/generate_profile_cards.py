@@ -224,10 +224,10 @@ def build_langs_svg(profile: dict) -> str:
     if not marks:
         marks.append('  <text x="352" y="148" text-anchor="middle" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Nenhuma linguagem detectada nos repositórios analisados.</text>')
 
-    body = f"""  <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Linguagens mais usadas</text>
-  <text x="32" y="88" fill="#94a3b8" font-size="15" font-family="Segoe UI, Arial, sans-serif">Percentual do código analisado nos repositórios próprios.</text>
+    body = f"""  <text x="352" y="53" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Distribuição de linguagens</text>
+  <text x="352" y="80" text-anchor="middle" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">Percentual do código analisado nos repositórios próprios.</text>
 {chr(10).join(marks)}"""
-    return svg_shell(704, 224, "langsTitle", "langsDesc", "Top Langs", f"Linguagens mais usadas no perfil de {profile['login']}.", body)
+    return svg_shell(704, 224, "langsTitle", "langsDesc", "Distribuição de linguagens", f"Distribuição de linguagens detectadas nos repositórios de {profile['login']}.", body)
 
 
 def build_metrics_svg(profile: dict) -> str:

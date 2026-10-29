@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="704" height="224" viewBox="0 0 704 224" role="img" aria-labelledby="langsTitle langsDesc">
-  <title id="langsTitle">Linguagens mais usadas</title>
-  <desc id="langsDesc">Percentual das linguagens detectadas nos repositórios de mathvll.</desc>
+  <title id="langsTitle">Distribuição de linguagens</title>
+  <desc id="langsDesc">Distribuição das linguagens detectadas nos repositórios de mathvll.</desc>
   <defs>
     <linearGradient id="langsTitleBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
@@ -10,8 +10,8 @@
   </defs>
   <rect width="704" height="224" rx="18" fill="url(#langsTitleBg)" />
   <rect x="14" y="14" width="676" height="196" rx="14" fill="#0b1220" stroke="#24324a" />
-  <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Linguagens mais usadas</text>
-  <text x="32" y="86" fill="#94a3b8" font-size="15" font-family="Segoe UI, Arial, sans-serif">Percentual do código analisado nos repositórios próprios.</text>
+  <text x="352" y="53" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Distribuição de linguagens</text>
+  <text x="352" y="80" text-anchor="middle" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">Percentual do código analisado nos repositórios próprios.</text>
   <g transform="translate(96,0)">
     <circle cx="0" cy="126" r="27" fill="#3178c6" fill-opacity="0.18" stroke="#3178c6" stroke-width="2" />
     <text x="0" y="132" text-anchor="middle" fill="#f8fafc" font-size="15" font-weight="700" font-family="Segoe UI, Arial, sans-serif">TS</text>

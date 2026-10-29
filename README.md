@@ -24,7 +24,7 @@ Gosto de entender como as pessoas usam um produto e transformar esse aprendizado
 
 <div align="center">
 
-![Linguagens mais usadas nos repositórios](./top-langs.svg)
+![Distribuição de linguagens nos repositórios](./top-langs.svg)
 
 </div>
 
