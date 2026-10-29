@@ -289,7 +289,7 @@ def build_langs_svg(profile: dict) -> str:
         marks.append("  </g>")
 
     body = f"""  <text x="352" y="42" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Distribuição de linguagens</text>
-  <text x="352" y="66" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Segoe UI, Arial, sans-serif">Repositórios pessoais + HyppeSocial · percentual dentro de cada área</text>
+  <text x="352" y="66" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Segoe UI, Arial, sans-serif">Repos pessoais + HyppeSocial · % por área · TypeScript/JavaScript no Frontend</text>
 {chr(10).join(marks)}"""
     return svg_shell(704, 396, "langsTitle", "langsDesc", "Distribuição de linguagens", f"Distribuição de linguagens de backend e frontend nos repositórios pessoais e HyppeSocial de {profile['login']}.", body)
 
