@@ -20,8 +20,6 @@ Também tenho experiência em marketing de performance: mais de 2 anos com Googl
 
 Gosto de entender como as pessoas usam um produto e transformar esse aprendizado em melhorias de código, produto e operação — especialmente com automações que eliminam tarefas repetitivas.
 
-## Linguagens dos repositórios
-
 <div align="center">
 
 ![Distribuição de linguagens nos repositórios](./top-langs.svg)

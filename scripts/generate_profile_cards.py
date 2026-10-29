@@ -3,6 +3,7 @@ import os
 import urllib.error
 import urllib.request
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -17,7 +18,7 @@ TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("METRICS_TOKEN")
 
 
 GRAPHQL_QUERY = """
-query ProfileData($login: String!) {
+query ProfileData($login: String!, $yearStart: DateTime!, $monthStart: DateTime!, $now: DateTime!) {
   user(login: $login) {
     name
     login
@@ -27,6 +28,12 @@ query ProfileData($login: String!) {
     }
     following {
       totalCount
+    }
+    yearCommits: contributionsCollection(from: $yearStart, to: $now) {
+      totalCommitContributions
+    }
+    monthCommits: contributionsCollection(from: $monthStart, to: $now) {
+      totalCommitContributions
     }
     contributionsCollection {
       contributionCalendar {
@@ -77,6 +84,17 @@ query ProfileOrganizations($login: String!) {
 """.strip()
 
 
+HYPPESOCIAL_REPOSITORIES_QUERY = """
+query HyppeSocialRepositories {
+  organization(login: "HyppeSocial") {
+    repositories(first: 1, isFork: false) {
+      totalCount
+    }
+  }
+}
+""".strip()
+
+
 def post_graphql(query: str, variables: dict) -> dict:
     if not TOKEN:
         raise RuntimeError("GITHUB_TOKEN nao configurado.")
@@ -103,16 +121,24 @@ def post_graphql(query: str, variables: dict) -> dict:
     if data.get("errors"):
         raise RuntimeError(f"GraphQL retornou erro: {data['errors']}")
 
-    return data["data"]["user"]
+    return data["data"]
 
 
 def fetch_organizations(login: str) -> dict:
     try:
-        return post_graphql(ORGANIZATIONS_QUERY, {"login": login})["organizations"]
+        return post_graphql(ORGANIZATIONS_QUERY, {"login": login})["user"]["organizations"]
     except RuntimeError as exc:
         if "INSUFFICIENT_SCOPES" in str(exc) or "read:org" in str(exc):
             return {"totalCount": None, "nodes": [], "available": False}
         raise
+
+
+def fetch_hyppesocial_repositories() -> int:
+    data = post_graphql(HYPPESOCIAL_REPOSITORIES_QUERY, {})
+    organization = data.get("organization")
+    if not organization:
+        return 0
+    return organization["repositories"]["totalCount"]
 
 
 def format_number(value: int) -> str:
@@ -168,32 +194,29 @@ def svg_shell(width: int, height: int, title_id: str, desc_id: str, title: str, 
 
 
 def build_stats_svg(profile: dict) -> str:
-    stars, forks = repo_totals(profile)
-    contributions = profile["contributionsCollection"]["contributionCalendar"]["totalContributions"]
     stat_items = [
-        ("Repositorios", format_number(profile["repositories"]["totalCount"])),
-        ("Contribuicoes", format_number(contributions)),
-        ("Stars", format_number(stars)),
-        ("Forks", format_number(forks)),
-        ("Seguidores", format_number(profile["followers"]["totalCount"])),
-        ("Seguindo", format_number(profile["following"]["totalCount"])),
+        ("Repos pessoais", format_number(profile["repositories"]["totalCount"])),
+        ("HyppeSocial", format_number(profile["hyppeSocialRepositories"])),
+        ("Commits no ano", format_number(profile["yearCommits"]["totalCommitContributions"])),
+        ("Commits no mês", format_number(profile["monthCommits"]["totalCommitContributions"])),
     ]
 
     cards = []
-    positions = [(32, 124), (256, 124), (480, 124), (32, 248), (256, 248), (480, 248)]
+    positions = [(32, 98), (196, 98), (360, 98), (524, 98)]
     for (label, value), (x, y) in zip(stat_items, positions):
         cards.append(
             f"""  <g transform="translate({x},{y})">
-    <rect width="192" height="96" rx="12" fill="#111827" stroke="#25324a" />
-    <text x="20" y="34" fill="#93c5fd" font-size="15" font-family="Segoe UI, Arial, sans-serif">{escape(label)}</text>
-    <text x="20" y="70" fill="#f8fafc" font-size="28" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{escape(value)}</text>
+    <rect width="144" height="72" rx="12" fill="#111827" stroke="#25324a" />
+    <rect width="144" height="4" rx="2" fill="#60a5fa" />
+    <text x="72" y="29" text-anchor="middle" fill="#93c5fd" font-size="13" font-family="Segoe UI, Arial, sans-serif">{escape(label)}</text>
+    <text x="72" y="56" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{escape(value)}</text>
   </g>"""
         )
 
-    body = f"""  <text x="32" y="56" fill="#f8fafc" font-size="30" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Resumo da atividade</text>
-  <text x="32" y="88" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Indicadores gerais do perfil e dos repositorios.</text>
+    body = f"""  <text x="352" y="48" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Atividade no GitHub</text>
+  <text x="352" y="74" text-anchor="middle" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">Commits contabilizados pelo GitHub</text>
 {chr(10).join(cards)}"""
-    return svg_shell(704, 376, "statsTitle", "statsDesc", "GitHub Stats", f"Resumo do perfil GitHub de {profile['login']}.", body)
+    return svg_shell(704, 196, "statsTitle", "statsDesc", "Atividade no GitHub", f"Repositórios e commits contabilizados pelo GitHub para {profile['login']}.", body)
 
 
 def build_langs_svg(profile: dict) -> str:
@@ -300,8 +323,20 @@ def build_metrics_svg(profile: dict) -> str:
 
 
 def main() -> None:
-    profile = post_graphql(GRAPHQL_QUERY, {"login": USERNAME})
+    now = datetime.now(timezone.utc)
+    year_start = now.replace(month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
+    month_start = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    profile = post_graphql(
+        GRAPHQL_QUERY,
+        {
+            "login": USERNAME,
+            "yearStart": year_start.isoformat().replace("+00:00", "Z"),
+            "monthStart": month_start.isoformat().replace("+00:00", "Z"),
+            "now": now.isoformat(timespec="seconds").replace("+00:00", "Z"),
+        },
+    )["user"]
     profile["organizations"] = fetch_organizations(USERNAME)
+    profile["hyppeSocialRepositories"] = fetch_hyppesocial_repositories()
     OUTPUT_STATS.write_text(build_stats_svg(profile), encoding="utf-8")
     OUTPUT_LANGS.write_text(build_langs_svg(profile), encoding="utf-8")
     OUTPUT_METRICS.write_text(build_metrics_svg(profile), encoding="utf-8")
