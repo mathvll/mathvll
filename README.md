@@ -1,6 +1,6 @@
 <div align="center">
 
-> “Não parei um dia desde que uma das minhas primeiras automações em Python trouxe, sem custo, meus primeiros clientes para minha loja SMM, em 2024.”
+> “Em 2024, comecei a criar automações em Python para resolver problemas reais do meu negócio. Desde então, sigo aprendendo e construindo.”
 
 ![Resumo da atividade no GitHub](./github-stats.svg)
 ![Linguagens mais usadas nos repositórios](./top-langs.svg)
