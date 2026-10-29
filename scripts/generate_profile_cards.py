@@ -90,6 +90,19 @@ query HyppeSocialRepositories {
     repositories(first: 1, isFork: false) {
       totalCount
     }
+    languageRepositories: repositories(first: 100, isFork: false) {
+      nodes {
+        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+          edges {
+            size
+            node {
+              name
+              color
+            }
+          }
+        }
+      }
+    }
   }
 }
 """.strip()
@@ -133,12 +146,15 @@ def fetch_organizations(login: str) -> dict:
         raise
 
 
-def fetch_hyppesocial_repositories() -> int:
+def fetch_hyppesocial_repositories() -> dict:
     data = post_graphql(HYPPESOCIAL_REPOSITORIES_QUERY, {})
     organization = data.get("organization")
     if not organization:
-        return 0
-    return organization["repositories"]["totalCount"]
+        return {"totalCount": 0, "nodes": []}
+    return {
+        "totalCount": organization["repositories"]["totalCount"],
+        "nodes": organization["languageRepositories"]["nodes"],
+    }
 
 
 def format_number(value: int) -> str:
@@ -159,8 +175,9 @@ def repository_nodes(profile: dict) -> list[dict]:
 def language_totals(profile: dict) -> tuple[list[tuple[str, int]], dict[str, str]]:
     totals = defaultdict(int)
     colors = {}
+    repositories = repository_nodes(profile) + profile.get("hyppeSocialRepositoryNodes", [])
 
-    for repo in repository_nodes(profile):
+    for repo in repositories:
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
             totals[name] += edge["size"]
@@ -221,36 +238,60 @@ def build_stats_svg(profile: dict) -> str:
 
 def build_langs_svg(profile: dict) -> str:
     languages, colors = language_totals(profile)
-    top_languages = languages[:6]
-    total_size = sum(size for _, size in languages)
     language_marks = {
         "TypeScript": "TS", "JavaScript": "JS", "Python": "Py", "HTML": "H5",
         "CSS": "CSS", "Java": "J", "Go": "Go", "Rust": "Rs", "C++": "C++",
         "C#": "C#", "Ruby": "Rb", "PHP": "PHP", "Swift": "Sw", "Kotlin": "Kt",
+        "PLpgSQL": "SQL", "Shell": "SH", "Less": "Le",
     }
+    frontend_names = {
+        "TypeScript", "JavaScript", "HTML", "CSS", "Less", "SCSS", "Sass",
+        "Vue", "Svelte", "Astro", "Swift", "Kotlin", "Go Template",
+    }
+    frontend = [(name, size) for name, size in languages if name in frontend_names]
+    backend = [(name, size) for name, size in languages if name not in frontend_names]
+    backend.sort(key=lambda item: item[1], reverse=True)
+    if len(backend) > 5:
+        backend = backend[:5] + [("Outros", sum(size for _, size in backend[5:]))]
 
     marks = []
-    column_width = 640 / max(len(top_languages), 1)
-    for index, (language, size) in enumerate(top_languages):
-        center_x = 32 + column_width * (index + 0.5)
-        percentage = 0 if total_size == 0 else (size / total_size) * 100
-        mark = language_marks.get(language, language[:2])
-        marks.append(
-            f'''  <g transform="translate({center_x:.1f},0)">
-    <circle cx="0" cy="126" r="27" fill="{colors.get(language, '#94a3b8')}" fill-opacity="0.18" stroke="{colors.get(language, '#94a3b8')}" stroke-width="2" />
-    <text x="0" y="132" text-anchor="middle" fill="#f8fafc" font-size="{12 if len(mark) > 2 else 15}" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{escape(mark)}</text>
-    <text x="0" y="174" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{percentage:.1f}%</text>
-    <text x="0" y="198" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Segoe UI, Arial, sans-serif">{escape(language)}</text>
-  </g>'''
+    groups = [("Backend", backend, 24), ("Frontend", frontend, 360)]
+    for title, entries, x in groups:
+        group_total = sum(size for _, size in entries)
+        max_percentage = max(
+            (size / group_total * 100 for _, size in entries),
+            default=1,
         )
+        panel_width = 320
+        marks.append(
+            f'''  <g>
+    <rect x="{x}" y="92" width="{panel_width}" height="282" rx="14" fill="#111827" stroke="#25324a" />
+    <text x="{x + 18}" y="121" fill="#f8fafc" font-size="19" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{title}</text>'''
+        )
+        for index, (language, size) in enumerate(entries):
+            y = 151 + index * 27
+            percentage = 0 if group_total == 0 else (size / group_total) * 100
+            percentage_label = f"{percentage:.1f}%" if percentage >= 0.05 else "<0.1%"
+            bar_width = max(2, 250 * percentage / max_percentage) if group_total else 0
+            mark = "+" if language == "Outros" else language_marks.get(language, language[:2])
+            label = "Swift (SwiftUI)" if language == "Swift" else language
+            color = colors.get(language, "#64748b")
+            marks.append(
+                f'''    <g>
+      <circle cx="{x + 26}" cy="{y}" r="10" fill="{color}" fill-opacity="0.2" stroke="{color}" />
+      <text x="{x + 26}" y="{y + 3}" text-anchor="middle" fill="#f8fafc" font-size="8" font-weight="700" font-family="Segoe UI, Arial, sans-serif">{escape(mark)}</text>
+      <text x="{x + 44}" y="{y + 4}" fill="#e2e8f0" font-size="12" font-family="Segoe UI, Arial, sans-serif">{escape(label)}</text>
+      <text x="{x + 300}" y="{y + 4}" text-anchor="end" fill="#f8fafc" font-size="12" font-weight="600" font-family="Segoe UI, Arial, sans-serif">{percentage_label}</text>
+      <rect x="{x + 44}" y="{y + 10}" width="250" height="3" rx="1.5" fill="#25324a" />
+      <rect x="{x + 44}" y="{y + 10}" width="{bar_width:.1f}" height="3" rx="1.5" fill="{color}" />
+    </g>'''
+            )
+        marks.append("  </g>")
 
-    if not marks:
-        marks.append('  <text x="352" y="148" text-anchor="middle" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Nenhuma linguagem detectada nos repositórios analisados.</text>')
-
-    body = f"""  <text x="352" y="53" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Distribuição de linguagens</text>
-  <text x="352" y="80" text-anchor="middle" fill="#94a3b8" font-size="14" font-family="Segoe UI, Arial, sans-serif">Percentual do código analisado nos repositórios próprios.</text>
+    body = f"""  <text x="352" y="42" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Distribuição de linguagens</text>
+  <text x="352" y="66" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Segoe UI, Arial, sans-serif">Repositórios pessoais + HyppeSocial · percentual dentro de cada área</text>
 {chr(10).join(marks)}"""
-    return svg_shell(704, 224, "langsTitle", "langsDesc", "Distribuição de linguagens", f"Distribuição de linguagens detectadas nos repositórios de {profile['login']}.", body)
+    return svg_shell(704, 396, "langsTitle", "langsDesc", "Distribuição de linguagens", f"Distribuição de linguagens de backend e frontend nos repositórios pessoais e HyppeSocial de {profile['login']}.", body)
 
 
 def build_metrics_svg(profile: dict) -> str:
@@ -336,7 +377,9 @@ def main() -> None:
         },
     )["user"]
     profile["organizations"] = fetch_organizations(USERNAME)
-    profile["hyppeSocialRepositories"] = fetch_hyppesocial_repositories()
+    hyppe_social = fetch_hyppesocial_repositories()
+    profile["hyppeSocialRepositories"] = hyppe_social["totalCount"]
+    profile["hyppeSocialRepositoryNodes"] = hyppe_social["nodes"]
     OUTPUT_STATS.write_text(build_stats_svg(profile), encoding="utf-8")
     OUTPUT_LANGS.write_text(build_langs_svg(profile), encoding="utf-8")
     OUTPUT_METRICS.write_text(build_metrics_svg(profile), encoding="utf-8")
