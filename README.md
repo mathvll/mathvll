@@ -2,8 +2,13 @@
 
 > “Em 2024, comecei a criar automações em Python para resolver problemas reais do meu negócio. Desde então, sigo aprendendo e construindo.”
 
+</div>
+
+## Atividade no GitHub
+
+<div align="center">
+
 ![Resumo da atividade no GitHub](./github-stats.svg)
-![Linguagens mais usadas nos repositórios](./top-langs.svg)
 
 </div>
 
@@ -14,6 +19,14 @@ Sou desenvolvedor full-stack com foco em backend. Trabalho diariamente em produt
 Também tenho experiência em marketing de performance: mais de 2 anos com Google Ads e Meta Ads e 100 mil+ conversões no mercado SMM. Em abril de 2025, alcancei 43% de conversão média em uma campanha.
 
 Gosto de entender como as pessoas usam um produto e transformar esse aprendizado em melhorias de código, produto e operação — especialmente com automações que eliminam tarefas repetitivas.
+
+## Linguagens dos repositórios
+
+<div align="center">
+
+![Linguagens mais usadas nos repositórios](./top-langs.svg)
+
+</div>
 
 ## Tecnologias
 
