@@ -1,12 +1,7 @@
 <div align="center">
 
-> “Em 2024, comecei a criar automações em Python para resolver problemas reais do meu negócio. Desde então, sigo aprendendo e construindo.”
+> Em 2024 comecei a criar automações em Python para resolver problemas reais do meu negócio e prospectar clientes de maneira organica
 
-</div>
-
-## Atividade no GitHub
-
-<div align="center">
 
 ![Resumo da atividade no GitHub](./github-stats.svg)
 
