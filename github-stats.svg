@@ -28,12 +28,12 @@
     <rect width="144" height="72" rx="12" fill="#111827" stroke="#25324a" />
     <rect width="144" height="4" rx="2" fill="#60a5fa" />
     <text x="72" y="29" text-anchor="middle" fill="#93c5fd" font-size="13" font-family="Segoe UI, Arial, sans-serif">Commits no ano</text>
-    <text x="72" y="56" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">304</text>
+    <text x="72" y="56" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">305</text>
   </g>
   <g transform="translate(524,98)">
     <rect width="144" height="72" rx="12" fill="#111827" stroke="#25324a" />
     <rect width="144" height="4" rx="2" fill="#60a5fa" />
     <text x="72" y="29" text-anchor="middle" fill="#93c5fd" font-size="13" font-family="Segoe UI, Arial, sans-serif">Commits no mês</text>
-    <text x="72" y="56" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">56</text>
+    <text x="72" y="56" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">57</text>
   </g>
 </svg>
