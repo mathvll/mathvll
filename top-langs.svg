@@ -47,9 +47,9 @@
       <circle cx="386" cy="205" r="10" fill="#e34c26" fill-opacity="0.2" stroke="#e34c26" />
       <text x="386" y="208" text-anchor="middle" fill="#f8fafc" font-size="8" font-weight="700" font-family="Segoe UI, Arial, sans-serif">H5</text>
       <text x="404" y="209" fill="#e2e8f0" font-size="12" font-family="Segoe UI, Arial, sans-serif">HTML</text>
-      <text x="660" y="209" text-anchor="end" fill="#f8fafc" font-size="12" font-weight="600" font-family="Segoe UI, Arial, sans-serif">2.1%</text>
+      <text x="660" y="209" text-anchor="end" fill="#f8fafc" font-size="12" font-weight="600" font-family="Segoe UI, Arial, sans-serif">2.0%</text>
       <rect x="404" y="215" width="250" height="3" rx="1.5" fill="#25324a" />
-      <rect x="404" y="215" width="7.0" height="3" rx="1.5" fill="#e34c26" />
+      <rect x="404" y="215" width="6.9" height="3" rx="1.5" fill="#e34c26" />
     </g>
     <g>
       <circle cx="386" cy="232" r="10" fill="#f1e05a" fill-opacity="0.2" stroke="#f1e05a" />
